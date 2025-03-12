@@ -12,6 +12,7 @@ func main() {
 		return
 	}
 	fmt.Println("Version using git tags!, go 1.24.1 at its peak")
+	fmt.Println("Tag must be against a commit")
 	fmt.Printf("Go Version: %s\n", info.GoVersion)
 	fmt.Printf("App Version: %s\n", info.Main.Version)
 	fmt.Printf("App Checksum: %s\n", info.Main.Sum)
